@@ -122,7 +122,7 @@
         </form>
     </div>
 
-    @if($show_form)
+    
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 // document.querySelector('div[data-ref="required-fields-container"]').classList.add('hidden');
@@ -130,6 +130,6 @@
                 document.querySelector('div[data-ref="gateway-container"]').classList.remove('pointer-events-none');
             });
         </script>
-    @endif
+    
 
 </div>
