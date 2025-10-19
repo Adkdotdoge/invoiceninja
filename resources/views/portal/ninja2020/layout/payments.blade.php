@@ -28,7 +28,7 @@
                     </p>
                 @endisset
             </div>
-            <div>
+            <div hidden>
                 @yield('gateway_content')
             </div>
 
